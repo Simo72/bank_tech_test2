@@ -3,11 +3,25 @@ Week 10 Makers tech tests
 
 
 ## Gameplan
-The aim is to make four classes
+The aim is to make three classes
 * Bank (Incl. menu)
 * Statement
-* Deposit
-* Withdrawal
+* User
+
+## User stories:
+```
+1.  As a bank customer
+    So that I can increase my funds
+    I would like to add a deposit to my Account
+
+2.  As a bank customer
+    So that I see my current balance
+    I would like to print my bank statement (dates, amounts and balance)
+
+3.  As a bank customer
+    So that I can access my funds
+    I would like to withdrawal my money
+```
 
 #
 
