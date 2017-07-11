@@ -1,11 +1,11 @@
-class Transactions
+class Transaction
 
 
-  def deposit(amount, date = Time.new.strftime("%d/%m/%Y"))
-    return amount.to_f, date
+  def deposit(amount)
+    amount.to_f
   end
 
-  def withdrawal(amount,date = Time.new.strftime("%d/%m/%Y"))
-    return amount.to_f, date
+  def withdrawal(amount)
+    amount.to_f
   end
 end

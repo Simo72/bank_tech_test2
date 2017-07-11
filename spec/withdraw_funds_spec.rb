@@ -1,9 +1,12 @@
-require 'account'
+require 'statement'
 
-describe Account do
+describe Statement do
+
 
   it 'Should be able to withdraw money from account' do
-    expect(subject.debit(250)).to eq [-250, "11/07/2017"]
+    subject.record_within_transactions(-250)
+    expect(subject.print_statement).to eq "11/07/2017" => -250 
   end
+
 
 end
