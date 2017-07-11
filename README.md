@@ -4,9 +4,9 @@ Week 10 Makers tech tests
 
 ## Gameplan
 The aim is to make three classes
-* Bank (Incl. menu)
+* Account
+* Transactions
 * Statement
-* User
 
 ## User stories:
 ```
