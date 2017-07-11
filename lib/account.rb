@@ -7,4 +7,8 @@ class Account
     pay_in.deposit(amount)
   end
 
+  def debit(amount)
+    pay_out = Transactions.new
+    pay_out.withdrawal(-amount)
+  end
 end
